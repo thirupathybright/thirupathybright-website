@@ -1,0 +1,514 @@
+{
+  "en8": {
+    "code": "EN8",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Steel",
+    "tagline": "A versatile medium carbon steel offering a good balance of strength, toughness and machinability, widely used in engineering applications.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Good Strength & Toughness" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Suitable for Heat Treatment" },
+      { "icon": "icon-layers", "label": "Wide Industrial Applications" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.35 – 0.45", "0.60 – 1.00", "0.05 – 0.35", "≤ 0.060", "≤ 0.060"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "700 – 850 MPa" },
+      { "property": "Yield Strength", "value": "≥ 465 MPa" },
+      { "property": "Elongation", "value": "≥ 16%" },
+      { "property": "Hardness (HB)", "value": "201 – 255" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN8" },
+      { "standard": "DIN", "grade": "C45" },
+      { "standard": "AISI/SAE", "grade": "1045" },
+      { "standard": "JIS", "grade": "S45C" },
+      { "standard": "IS", "grade": "C40" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Shafts" },
+      { "icon": "icon-machining", "label": "Gears" },
+      { "icon": "icon-fastener", "label": "Bolts & Fasteners" },
+      { "icon": "icon-cold-drawing", "label": "Spindles" },
+      { "icon": "icon-layers", "label": "General Engineering Components" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar", "square-bar", "hex-bar"],
+    "related": ["en9", "en19", "c45", "sae1040"]
+  },
+  "en9": {
+    "code": "EN9",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Steel",
+    "tagline": "A higher-carbon variant of EN8, offering greater strength and wear resistance for more demanding engineering components.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Higher Strength than EN8" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Suitable for Heat Treatment" },
+      { "icon": "icon-layers", "label": "Wear-Resistant Components" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.50 – 0.60", "0.50 – 0.80", "0.05 – 0.35", "≤ 0.060", "≤ 0.060"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "700 – 850 MPa" },
+      { "property": "Yield Strength", "value": "≥ 490 MPa" },
+      { "property": "Elongation", "value": "≥ 14%" },
+      { "property": "Hardness (HB)", "value": "201 – 255" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN9" },
+      { "standard": "DIN", "grade": "C55" },
+      { "standard": "AISI/SAE", "grade": "1055" },
+      { "standard": "JIS", "grade": "S55C" },
+      { "standard": "IS", "grade": "C55Mn75" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Gears" },
+      { "icon": "icon-machining", "label": "Cams" },
+      { "icon": "icon-fastener", "label": "Studs" },
+      { "icon": "icon-cold-drawing", "label": "Wear Plates" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "square-bar"],
+    "related": ["en8", "c45", "en19"]
+  },
+  "en19": {
+    "code": "EN19",
+    "category": "Alloy Steel",
+    "name": "Carbon Manganese / Chromium-Molybdenum Steel",
+    "tagline": "A high-strength alloy engineering steel with good toughness and fatigue resistance, widely used after heat treatment.",
+    "image": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "High Tensile Strength" },
+      { "icon": "icon-machining", "label": "Good Fatigue Resistance" },
+      { "icon": "icon-check", "label": "Responds Well to Heat Treatment" },
+      { "icon": "icon-layers", "label": "High-Stress Components" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "Cr", "Mo"],
+      "row": ["Content (%)", "0.35 – 0.45", "0.50 – 0.80", "0.10 – 0.35", "0.90 – 1.50", "0.20 – 0.40"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "850 – 1000 MPa" },
+      { "property": "Yield Strength", "value": "≥ 665 MPa" },
+      { "property": "Elongation", "value": "≥ 13%" },
+      { "property": "Hardness (HB)", "value": "248 – 302" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN19" },
+      { "standard": "DIN", "grade": "34CrMo4" },
+      { "standard": "AISI/SAE", "grade": "4140" },
+      { "standard": "JIS", "grade": "SCM440" },
+      { "standard": "IS", "grade": "40Cr4Mo2" }
+    ],
+    "applications": [
+      { "icon": "icon-automotive", "label": "Crankshafts" },
+      { "icon": "icon-machining", "label": "Connecting Rods" },
+      { "icon": "icon-fastener", "label": "High-Tensile Bolts" },
+      { "icon": "icon-cold-drawing", "label": "Gears & Axles" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar", "square-bar", "hex-bar"],
+    "related": ["en24", "en8", "42crmo4", "en31"]
+  },
+  "en24": {
+    "code": "EN24",
+    "category": "Alloy Steel",
+    "name": "Nickel-Chromium-Molybdenum Alloy Steel",
+    "tagline": "A high-strength, high-toughness alloy steel used for critical, highly stressed components requiring deep hardenability.",
+    "image": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Very High Strength" },
+      { "icon": "icon-machining", "label": "Deep Hardenability" },
+      { "icon": "icon-check", "label": "Excellent Toughness" },
+      { "icon": "icon-layers", "label": "Critical Load-Bearing Parts" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Cr", "Ni", "Mo"],
+      "row": ["Content (%)", "0.35 – 0.45", "0.45 – 0.70", "0.90 – 1.40", "1.30 – 1.80", "0.20 – 0.35"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "930 – 1080 MPa" },
+      { "property": "Yield Strength", "value": "≥ 770 MPa" },
+      { "property": "Elongation", "value": "≥ 13%" },
+      { "property": "Hardness (HB)", "value": "269 – 311" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN24" },
+      { "standard": "DIN", "grade": "34CrNiMo6" },
+      { "standard": "AISI/SAE", "grade": "4340" },
+      { "standard": "JIS", "grade": "SNCM439" },
+      { "standard": "IS", "grade": "40NiCrMo2" }
+    ],
+    "applications": [
+      { "icon": "icon-automotive", "label": "Gears & Shafts" },
+      { "icon": "icon-machining", "label": "Aircraft Components" },
+      { "icon": "icon-fastener", "label": "High-Strength Fasteners" },
+      { "icon": "icon-cold-drawing", "label": "Heavy-Duty Axles" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "square-bar"],
+    "related": ["en19", "en31", "16mncr5", "42crmo4"]
+  },
+  "en31": {
+    "code": "EN31",
+    "category": "Alloy Steel",
+    "name": "High Carbon Chromium Bearing Steel",
+    "tagline": "A high-carbon, high-chromium alloy steel providing excellent hardness and wear resistance, standard for bearing applications.",
+    "image": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-hardness", "label": "Very High Hardness" },
+      { "icon": "icon-machining", "label": "Excellent Wear Resistance" },
+      { "icon": "icon-check", "label": "Fine Grain Structure" },
+      { "icon": "icon-layers", "label": "Precision Bearing Components" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "Cr", "S"],
+      "row": ["Content (%)", "0.90 – 1.20", "0.30 – 0.75", "0.10 – 0.35", "1.00 – 1.60", "≤ 0.050"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "700 – 800 MPa (annealed)" },
+      { "property": "Hardness (Annealed)", "value": "≤ 217 HB" },
+      { "property": "Hardness (Hardened)", "value": "60 – 67 HRC" },
+      { "property": "Elongation", "value": "≥ 10% (annealed)" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN31" },
+      { "standard": "DIN", "grade": "100Cr6" },
+      { "standard": "AISI/SAE", "grade": "52100" },
+      { "standard": "JIS", "grade": "SUJ2" },
+      { "standard": "IS", "grade": "103Cr1Mo15" }
+    ],
+    "applications": [
+      { "icon": "icon-machining", "label": "Ball & Roller Bearings" },
+      { "icon": "icon-cold-drawing", "label": "Precision Rollers" },
+      { "icon": "icon-fastener", "label": "Dies & Punches" },
+      { "icon": "icon-round-bar", "label": "Wear-Resistant Pins" }
+    ],
+    "supply": ["Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar"],
+    "related": ["en24", "en19", "16mncr5"]
+  },
+  "en1a": {
+    "code": "EN1A",
+    "category": "Free Cutting Steel",
+    "name": "Leaded Free Cutting Steel",
+    "tagline": "A sulphur and lead-enhanced free-cutting steel developed for high-speed machining and high-volume component production.",
+    "image": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-machining", "label": "Excellent Machinability" },
+      { "icon": "icon-cutting", "label": "High-Speed Turning" },
+      { "icon": "icon-check", "label": "Good Surface Finish" },
+      { "icon": "icon-layers", "label": "High-Volume Production" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.07 – 0.15", "0.80 – 1.20", "≤ 0.10", "0.20 – 0.30", "≤ 0.070"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "380 – 500 MPa" },
+      { "property": "Yield Strength", "value": "≥ 220 MPa" },
+      { "property": "Elongation", "value": "≥ 15%" },
+      { "property": "Hardness (HB)", "value": "110 – 160" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN1A" },
+      { "standard": "DIN", "grade": "9SMn28" },
+      { "standard": "AISI/SAE", "grade": "1213" },
+      { "standard": "IS", "grade": "11C10S25" }
+    ],
+    "applications": [
+      { "icon": "icon-machining", "label": "CNC Turned Parts" },
+      { "icon": "icon-fastener", "label": "Screws & Fittings" },
+      { "icon": "icon-cold-drawing", "label": "Small Precision Components" },
+      { "icon": "icon-round-bar", "label": "Bushings" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "hex-bar"],
+    "related": ["en1a-l", "en8", "sae1213"]
+  },
+  "en1a-l": {
+    "code": "EN1A(L)",
+    "category": "Free Cutting Steel",
+    "name": "Lead-Free Free Cutting Steel",
+    "tagline": "A lead-free version of EN1A, offering comparable machinability for applications where leaded steel is restricted.",
+    "image": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Lead-Free Composition" },
+      { "icon": "icon-cutting", "label": "High-Speed Turning" },
+      { "icon": "icon-layers", "label": "Compliant for Restricted Applications" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.07 – 0.15", "0.80 – 1.20", "≤ 0.10", "0.20 – 0.30", "≤ 0.070"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "380 – 500 MPa" },
+      { "property": "Yield Strength", "value": "≥ 220 MPa" },
+      { "property": "Elongation", "value": "≥ 15%" },
+      { "property": "Hardness (HB)", "value": "110 – 160" }
+    ],
+    "equivalents": [
+      { "standard": "BS", "grade": "EN1A(L)" },
+      { "standard": "DIN", "grade": "9SMn28" },
+      { "standard": "AISI/SAE", "grade": "1213" },
+      { "standard": "IS", "grade": "11C10S25" }
+    ],
+    "applications": [
+      { "icon": "icon-machining", "label": "CNC Turned Parts" },
+      { "icon": "icon-fastener", "label": "Screws & Fittings" },
+      { "icon": "icon-round-bar", "label": "Bushings" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "hex-bar"],
+    "related": ["en1a", "en8"]
+  },
+  "c45": {
+    "code": "45C8",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Steel",
+    "tagline": "A widely used general-purpose medium carbon steel, valued for its balance of strength, machinability and cost-effectiveness.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Good Strength & Toughness" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Suitable for Heat Treatment" },
+      { "icon": "icon-layers", "label": "General Engineering Use" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.40 – 0.50", "0.60 – 0.90", "0.15 – 0.35", "≤ 0.050", "≤ 0.050"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "600 – 800 MPa" },
+      { "property": "Yield Strength", "value": "≥ 340 MPa" },
+      { "property": "Elongation", "value": "≥ 16%" },
+      { "property": "Hardness (HB)", "value": "170 – 230" }
+    ],
+    "equivalents": [
+      { "standard": "IS", "grade": "45C8" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Shafts" },
+      { "icon": "icon-machining", "label": "Gears" },
+      { "icon": "icon-fastener", "label": "Bolts" },
+      { "icon": "icon-layers", "label": "General Machined Parts" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar", "square-bar", "hex-bar", "flat-bar"],
+    "related": ["en8", "ck45", "sae1040"]
+  },
+  "ck45": {
+    "code": "CK45",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Quality Steel",
+    "tagline": "A quality-grade medium carbon steel with tighter compositional control than C45, suited to components requiring heat treatment.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Controlled Composition" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Good Response to Heat Treatment" },
+      { "icon": "icon-layers", "label": "Precision Engineering Parts" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "S", "P"],
+      "row": ["Content (%)", "0.42 – 0.50", "0.50 – 0.80", "0.15 – 0.35", "≤ 0.035", "≤ 0.035"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "620 – 780 MPa" },
+      { "property": "Yield Strength", "value": "≥ 370 MPa" },
+      { "property": "Elongation", "value": "≥ 16%" },
+      { "property": "Hardness (HB)", "value": "179 – 229" }
+    ],
+    "equivalents": [
+      { "standard": "DIN", "grade": "CK45" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Precision Shafts" },
+      { "icon": "icon-machining", "label": "Hydraulic Components" },
+      { "icon": "icon-fastener", "label": "Fasteners" }
+    ],
+    "supply": ["Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar"],
+    "related": ["c45", "en8"]
+  },
+  "16mncr5": {
+    "code": "16MnCr5",
+    "category": "Alloy Steel",
+    "name": "Chromium Manganese Case Hardening Steel",
+    "tagline": "A case-hardening alloy steel offering a hard, wear-resistant surface with a tough core, ideal for gears and cams.",
+    "image": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-hardness", "label": "Hard Case, Tough Core" },
+      { "icon": "icon-machining", "label": "Good Machinability (Pre-Treatment)" },
+      { "icon": "icon-check", "label": "Excellent Case Hardening Response" },
+      { "icon": "icon-layers", "label": "Gear & Cam Manufacturing" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "Cr", "S"],
+      "row": ["Content (%)", "0.14 – 0.19", "1.00 – 1.30", "0.15 – 0.40", "0.80 – 1.10", "≤ 0.035"]
+    },
+    "mechanical": [
+      { "property": "Core Tensile Strength", "value": "780 – 1080 MPa" },
+      { "property": "Case Hardness", "value": "58 – 62 HRC" },
+      { "property": "Core Hardness", "value": "25 – 35 HRC" },
+      { "property": "Elongation", "value": "≥ 9%" }
+    ],
+    "equivalents": [
+      { "standard": "DIN", "grade": "16MnCr5" },
+      { "standard": "IS", "grade": "17Mn1Cr95" }
+    ],
+    "applications": [
+      { "icon": "icon-machining", "label": "Gears" },
+      { "icon": "icon-conveyor", "label": "Cams" },
+      { "icon": "icon-automotive", "label": "Transmission Components" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "square-bar"],
+    "related": ["en19", "en24", "42crmo4"]
+  },
+  "42crmo4": {
+    "code": "42CrMo4",
+    "category": "Alloy Steel",
+    "name": "Chromium-Molybdenum Alloy Steel",
+    "tagline": "A widely used through-hardening alloy steel offering high strength, good toughness and fatigue resistance.",
+    "image": "https://images.unsplash.com/photo-1590959651373-a3db0f38a961?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "High Tensile Strength" },
+      { "icon": "icon-machining", "label": "Good Fatigue Resistance" },
+      { "icon": "icon-check", "label": "Through-Hardenable" },
+      { "icon": "icon-layers", "label": "Heavy-Duty Structural Parts" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "Cr", "Mo"],
+      "row": ["Content (%)", "0.38 – 0.45", "0.50 – 0.80", "0.15 – 0.40", "0.90 – 1.20", "0.15 – 0.30"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "1000 – 1200 MPa" },
+      { "property": "Yield Strength", "value": "≥ 900 MPa" },
+      { "property": "Elongation", "value": "≥ 11%" },
+      { "property": "Hardness (HB)", "value": "285 – 341" }
+    ],
+    "equivalents": [
+      { "standard": "DIN", "grade": "42CrMo4" },
+      { "standard": "AISI/SAE", "grade": "SAE4140" }
+    ],
+    "applications": [
+      { "icon": "icon-automotive", "label": "Crankshafts" },
+      { "icon": "icon-machining", "label": "Gears" },
+      { "icon": "icon-fastener", "label": "High-Tensile Fasteners" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar", "square-bar", "hex-bar"],
+    "related": ["en19", "en24", "16mncr5"]
+  },
+  "sae1040": {
+    "code": "SAE 1040",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Steel",
+    "tagline": "A popular AISI/SAE medium carbon engineering steel, closely equivalent to EN8, used across general machining applications.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Good Strength & Toughness" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Suitable for Heat Treatment" },
+      { "icon": "icon-layers", "label": "Popular Engineering Steel" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "S", "P"],
+      "row": ["Content (%)", "0.37 – 0.44", "0.60 – 0.90", "≤ 0.050", "≤ 0.040"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "620 – 770 MPa" },
+      { "property": "Yield Strength", "value": "≥ 415 MPa" },
+      { "property": "Elongation", "value": "≥ 18%" },
+      { "property": "Hardness (HB)", "value": "179 – 229" }
+    ],
+    "equivalents": [
+      { "standard": "AISI/SAE", "grade": "SAE 1040" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Shafts" },
+      { "icon": "icon-machining", "label": "Spindles" },
+      { "icon": "icon-layers", "label": "General Engineering Components" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "square-bar"],
+    "related": ["en8", "c45"]
+  },
+  "s20c": {
+    "code": "S20C",
+    "category": "Carbon Steel",
+    "name": "Low Carbon Steel",
+    "tagline": "A JIS low carbon steel suitable for case hardening and cold forming applications requiring moderate strength.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-machining", "label": "Good Cold Formability" },
+      { "icon": "icon-check", "label": "Suitable for Case Hardening" },
+      { "icon": "icon-checkpoint", "label": "Moderate Strength" },
+      { "icon": "icon-layers", "label": "General Purpose Steel" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "P", "S"],
+      "row": ["Content (%)", "0.18 – 0.23", "0.30 – 0.60", "0.15 – 0.35", "≤ 0.030", "≤ 0.035"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "400 – 550 MPa" },
+      { "property": "Yield Strength", "value": "≥ 245 MPa" },
+      { "property": "Elongation", "value": "≥ 24%" },
+      { "property": "Hardness (HB)", "value": "111 – 160" }
+    ],
+    "equivalents": [
+      { "standard": "JIS", "grade": "S20C" }
+    ],
+    "applications": [
+      { "icon": "icon-machining", "label": "Pins" },
+      { "icon": "icon-cold-drawing", "label": "Case-Hardened Components" },
+      { "icon": "icon-layers", "label": "Low-Stress Machine Parts" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground"],
+    "shapes": ["round-bar", "square-bar"],
+    "related": ["s45c", "en8"]
+  },
+  "s45c": {
+    "code": "S45C",
+    "category": "Carbon Steel",
+    "name": "Medium Carbon Steel",
+    "tagline": "The JIS equivalent of EN8/C45, a widely specified medium carbon steel for general engineering and machined components.",
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1000&q=80",
+    "highlights": [
+      { "icon": "icon-checkpoint", "label": "Good Strength & Toughness" },
+      { "icon": "icon-machining", "label": "Good Machinability" },
+      { "icon": "icon-check", "label": "Suitable for Heat Treatment" },
+      { "icon": "icon-layers", "label": "Widely Specified Grade" }
+    ],
+    "chemistry": {
+      "columns": ["Element", "C", "Mn", "Si", "P", "S"],
+      "row": ["Content (%)", "0.42 – 0.48", "0.60 – 0.90", "0.15 – 0.35", "≤ 0.030", "≤ 0.035"]
+    },
+    "mechanical": [
+      { "property": "Tensile Strength", "value": "570 – 700 MPa" },
+      { "property": "Yield Strength", "value": "≥ 345 MPa" },
+      { "property": "Elongation", "value": "≥ 20%" },
+      { "property": "Hardness (HB)", "value": "167 – 229" }
+    ],
+    "equivalents": [
+      { "standard": "JIS", "grade": "S45C" }
+    ],
+    "applications": [
+      { "icon": "icon-round-bar", "label": "Shafts" },
+      { "icon": "icon-machining", "label": "Gears" },
+      { "icon": "icon-fastener", "label": "Bolts" }
+    ],
+    "supply": ["Bright Drawn", "Bright Drawn & Ground", "Bright Peeled & Ground"],
+    "shapes": ["round-bar", "square-bar", "hex-bar"],
+    "related": ["en8", "c45", "s20c"]
+  }
+}
