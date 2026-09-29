@@ -92,24 +92,6 @@
     });
   }
 
-  function renderRelated(container, relatedKeys, allGrades) {
-    container.innerHTML = "";
-    (relatedKeys || []).forEach((key) => {
-      const g = allGrades[key];
-      if (!g) return;
-      const a = el("a", null);
-      a.href = "grade.html?g=" + encodeURIComponent(key);
-      const card = el(
-        "div",
-        "grade-card",
-        '<p class="grade-code">' + g.code + "</p><p>" + g.name + "</p>"
-      );
-      card.setAttribute("data-reveal", "");
-      a.appendChild(card);
-      container.appendChild(a);
-    });
-  }
-
   function showState(id) {
     ["gradeLoading", "gradeNotFound", "gradeContent"].forEach((s) => {
       document.getElementById(s).hidden = s !== id;
@@ -227,8 +209,6 @@
     renderApplications(document.getElementById("gradeApplications"), grade.applications);
     renderSupply(document.getElementById("gradeSupply"), grade.supply);
     renderForms(document.getElementById("gradeForms"), grade.shapes);
-    renderRelated(document.getElementById("gradeRelated"), grade.related, allGrades);
-
     document.getElementById("gradeCtaHeading").textContent =
       "Need " + grade.code + " Round Bright Bars for Your Project?";
 
