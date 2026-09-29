@@ -8,7 +8,7 @@
 
   function cardHtml(key, g) {
     return (
-      '<a href="/steel-grades/grade.html?g=' + key + '">' +
+      '<a href="steel-grades/grade.html?g=' + key + '">' +
         '<div class="grade-card" data-reveal>' +
           '<p class="grade-code">' + g.code + '</p>' +
           '<p class="grade-card-name">' + g.name + '</p>' +
@@ -67,7 +67,7 @@
     });
   }
 
-  fetch("/data/grades.json")
+  fetch("data/grades.json")
     .then(function (res) { return res.json(); })
     .then(function (data) {
       allGrades = data;
