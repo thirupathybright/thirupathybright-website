@@ -115,7 +115,7 @@
   }
 
   function updateSeo(key, grade) {
-    const pageTitle = grade.code + " — " + grade.category + " | TBI Steel";
+    const pageTitle = grade.code + " — " + grade.category + " | Thirupathy Bright Industries";
     const description =
       grade.code + " (" + grade.name + "): " + grade.tagline;
     const canonicalUrl =
@@ -178,7 +178,7 @@
 
   function render(key, grade, allGrades) {
     updateSeo(key, grade);
-    document.title = grade.code + " — " + grade.category + " | TBI Steel";
+    document.title = grade.code + " — " + grade.category + " | Thirupathy Bright Industries";
 
     document.getElementById("gradeCategoryCrumb").textContent = grade.category;
     document.getElementById("gradeCodeCrumb").textContent = grade.code;

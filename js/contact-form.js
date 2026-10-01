@@ -1,5 +1,5 @@
 (function () {
-  var API_URL = "http://thirupathybright.com/api/website-contact/";
+  var API_URL = "https://thirupathybright.com/api/website-contact/";
 
   var form = document.querySelector("form.card-soft");
   if (!form) return;

@@ -195,7 +195,7 @@
   padding-bottom: var(--space-2xl);
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.footer-grid h4 {
+.footer-grid h3 {
   color: var(--color-on-primary);
   font-size: var(--fs-body-sm);
   text-transform: uppercase;
@@ -277,7 +277,7 @@
   padding: 0 60px;
 }
 .hero-slide-content .eyebrow { color: var(--color-mute); }
-.hero-slide-content h1 { color: var(--color-on-primary); max-width: 880px; }
+.hero-slide-content h1, .hero-slide-content h2 { color: var(--color-on-primary); max-width: 880px; }
 .hero-slide-content p { margin-top: var(--space-lg); color: var(--color-mute); max-width: 620px; }
 
 .hero-keypoints {
@@ -320,14 +320,14 @@
 
 @media (max-width: 767px) {
   .hero-slide-content { padding: 0 24px; }
-  .hero-slide-content h1 { font-size: 28px; line-height: 32px; letter-spacing: normal; max-width: 100%; }
+  .hero-slide-content h1, .hero-slide-content h2 { font-size: 28px; line-height: 32px; letter-spacing: normal; max-width: 100%; }
   .hero-slide-content .eyebrow { font-size: var(--fs-caption); }
   .hero-slide-content p { font-size: var(--fs-body-sm); max-width: 100%; }
   .hero-keypoints { gap: var(--space-lg); }
 }
 
 @media (max-width: 480px) {
-  .hero-slide-content h1 { font-size: 24px; line-height: 28px; }
+  .hero-slide-content h1, .hero-slide-content h2 { font-size: 24px; line-height: 28px; }
 }
 
 .hero-arrow {
@@ -1297,3 +1297,8 @@ table.spec-table { width: 100%; border-collapse: collapse; min-width: 480px; }
 .mt-lg { margin-top: var(--space-lg); }
 .mt-xl { margin-top: var(--space-xl); }
 .mt-2xl { margin-top: var(--space-2xl); }
+
+/* Skip link (keyboard / screen-reader) */
+.skip-link { position: absolute; left: 8px; top: -48px; z-index: 1000; background: var(--color-ink); color: var(--color-on-primary); padding: 10px 16px; border-radius: var(--radius-sm); font-weight: 600; transition: top var(--duration-fast) var(--ease-out); }
+.skip-link:focus { top: 8px; }
+.card-soon { display: inline-block; margin-top: var(--space-sm); font-size: var(--fs-caption); font-weight: 600; color: var(--color-body-mid); }
