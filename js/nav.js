@@ -18,7 +18,7 @@ function initNav() {
 
     navPrimary.querySelectorAll(".has-dropdown > .nav-link").forEach((link) => {
       link.addEventListener("click", (e) => {
-        if (window.innerWidth > 1240) return;
+        if (window.innerWidth > 1024) return;
         e.preventDefault();
         link.closest(".has-dropdown").classList.toggle("is-open");
       });
