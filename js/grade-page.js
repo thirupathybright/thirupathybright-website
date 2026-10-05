@@ -4,13 +4,6 @@
  * new grade by adding one entry to data/grades.json, no new HTML needed.
  */
 (function () {
-  const SHAPE_META = {
-    "round-bar": { label: "Round Bars", icon: "icon-round-bar" },
-    "square-bar": { label: "Square Bars", icon: "icon-square-bar" },
-    "hex-bar": { label: "Hexagonal Bars", icon: "icon-hex-bar" },
-    "flat-bar": { label: "Flat Bars", icon: "icon-flat-bar" }
-  };
-
   function qs(name) {
     return new URLSearchParams(window.location.search).get(name);
   }
@@ -20,16 +13,6 @@
     if (className) node.className = className;
     if (html !== undefined) node.innerHTML = html;
     return node;
-  }
-
-  function renderHighlights(container, highlights) {
-    container.innerHTML = "";
-    (highlights || []).forEach((h) => {
-      const tile = el("div", "spec-highlight-tile");
-      tile.innerHTML =
-        '<svg class="icon-inline"><use href="#' + h.icon + '"/></svg><span>' + h.label + "</span>";
-      container.appendChild(tile);
-    });
   }
 
   function renderChemistryTable(table, chemistry) {
@@ -47,22 +30,6 @@
     });
   }
 
-  function renderApplications(container, applications) {
-    container.innerHTML = "";
-    (applications || []).forEach((app) => {
-      const card = el("div", "card");
-      card.setAttribute("data-reveal", "");
-      card.style.textAlign = "center";
-      card.innerHTML =
-        '<div class="card-icon" style="margin:0 auto var(--space-lg);"><svg class="icon-inline"><use href="#' +
-        app.icon +
-        '"/></svg></div><h3 style="font-size:var(--fs-body-md);">' +
-        app.label +
-        "</h3>";
-      container.appendChild(card);
-    });
-  }
-
   function renderSupply(list, supply) {
     list.innerHTML = "";
     (supply || []).forEach((s) => {
@@ -72,23 +39,6 @@
         '<svg class="icon-inline"><use href="#icon-check"/></svg> ' + s
       );
       list.appendChild(li);
-    });
-  }
-
-  function renderForms(container, shapeKeys) {
-    container.innerHTML = "";
-    (shapeKeys || []).forEach((key) => {
-      const meta = SHAPE_META[key];
-      if (!meta) return;
-      const card = el("div", "card");
-      card.setAttribute("data-reveal", "");
-      card.innerHTML =
-        '<div class="shape-icon"><svg class="icon-inline"><use href="#' +
-        meta.icon +
-        '"/></svg></div><h3>' +
-        meta.label +
-        "</h3>";
-      container.appendChild(card);
     });
   }
 
@@ -191,8 +141,11 @@
     document.getElementById("gradeName2").textContent = grade.name;
     document.getElementById("gradeTagline2").textContent = grade.tagline;
 
-    renderHighlights(document.getElementById("gradeHighlights"), grade.highlights);
     renderChemistryTable(document.getElementById("chemistryTable"), grade.chemistry);
+
+    var hasMech = !!(grade.mechanical && grade.mechanical.length);
+    document.getElementById("mechanical").hidden = !hasMech;
+    document.getElementById("mechanicalTab").hidden = !hasMech;
 
     renderRows(
       document.querySelector("#mechanicalTable tbody"),
@@ -200,15 +153,7 @@
       (row) => "<td>" + row.property + "</td><td>" + row.value + "</td>"
     );
 
-    renderRows(
-      document.querySelector("#equivalentsTable tbody"),
-      grade.equivalents,
-      (row) => "<td>" + row.standard + "</td><td>" + row.grade + "</td>"
-    );
-
-    renderApplications(document.getElementById("gradeApplications"), grade.applications);
     renderSupply(document.getElementById("gradeSupply"), grade.supply);
-    renderForms(document.getElementById("gradeForms"), grade.shapes);
     document.getElementById("gradeCtaHeading").textContent =
       "Need " + grade.code + " Round Bright Bars for Your Project?";
 
