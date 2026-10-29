@@ -651,6 +651,7 @@ table.spec-table { width: 100%; border-collapse: collapse; min-width: 480px; }
   color: var(--color-ink-mid);
 }
 .spec-table tbody tr:nth-child(even) { background: var(--color-canvas-soft); }
+.spec-table tbody th { color: var(--color-ink); text-transform: none; letter-spacing: 0; font-size: var(--fs-body-sm); width: 28%; vertical-align: top; border-bottom: 1px solid var(--color-steel-line); }
 
 /* ── Forms ── */
 .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-lg); }
